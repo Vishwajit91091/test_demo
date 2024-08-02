@@ -1,0 +1,10 @@
+spring:
+  datasource:
+      username: system
+      password: tiger
+      url: jdbc:oracle:thin:@localhost:1521:orcl?serverTimezone=UTC
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
